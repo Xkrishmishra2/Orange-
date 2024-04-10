@@ -1,8 +1,8 @@
-from DAXXMUSIC.core.bot import DAXX
-from DAXXMUSIC.core.dir import dirr
-from DAXXMUSIC.core.git import git
-from DAXXMUSIC.core.userbot import Userbot
-from DAXXMUSIC.misc import dbb, heroku
+from SPEEDNET.core.bot import SPEED
+from SPEEDNET.core.dir import dirr
+from SPEEDNET.core.git import git
+from SPEEDNET.core.userbot import Userbot
+from SPEEDNET.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
