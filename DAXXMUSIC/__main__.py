@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from SPEEDMUSIC import LOGGER, app, userbot
-from SPEEDMUSIC.core.call import DAXX
+from SPEEDMUSIC.core.call import SPEED
 from SPEEDMUSIC.misc import sudo
 from SPEEDMUSIC.plugins import ALL_MODULES
 from SPEEDMUSIC.utils.database import get_banned_users, get_gbanned
