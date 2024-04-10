@@ -25,7 +25,7 @@ class Userbot(Client):
             no_updates=True,
         )
         self.three = Client(
-            name="DAXXAss3",
+            name="Xkrishmishra",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -39,7 +39,7 @@ class Userbot(Client):
             no_updates=True,
         )
         self.five = Client(
-            name="DAXXAss5",
+            name="Xkrishmishra",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ALLTYPECC")
-                await self.one.join_chat("DAXXSUPPORT")
+                await self.one.join_chat("speeds_net")
+                await self.one.join_chat("speeds_net")
             except:
                 pass
             assistants.append(1)
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("ALLTYPECC")
-                await self.one.join_chat("DAXXSUPPORT")
+                await self.three.join_chat("speeds_net")
+                await self.one.join_chat("speeds_net")
             except:
                 pass
             assistants.append(3)
@@ -114,8 +114,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("ALLTYPECC")
-                await self.one.join_chat("DAXXSUPPORT")
+                await self.four.join_chat("speeds_net")
+                await self.one.join_chat("speeds_net")
             except:
                 pass
             assistants.append(4)
