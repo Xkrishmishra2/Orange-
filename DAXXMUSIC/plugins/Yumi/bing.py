@@ -1,4 +1,4 @@
-from DAXXMUSIC import app 
+from SPEEDMUSIC import app 
 import requests as r
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram import filters 
@@ -17,7 +17,7 @@ async def bing_search(michiko, message):
         )  # Assuming the keyword is passed as arguments
         params = {"keyword": keyword}
         response = r.get(API_URL, params=params)
-
+l
         if response.status_code == 200:
             results = response.json()
             if not results:
