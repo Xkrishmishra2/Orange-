@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from DAXXMUSIC.misc import _boot_
-from DAXXMUSIC.utils.formatters import get_readable_time
+from SPEEDMUSIC.misc import _boot_
+from SPEEDMUSICl.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
