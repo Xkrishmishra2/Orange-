@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.utils.database import set_loop
-from DAXXMUSIC.utils.decorators import AdminRightsCheck
-from DAXXMUSIC.utils.inline import close_markup
+from SPEEDMUSIC import app
+from SPEEDMUSIC.core.call import SPEED
+from SPEEDMUSIC.utils.database import set_loop
+from SPEEDMUSIC.utils.decorators import AdminRightsCheck
+from SPEEDMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
